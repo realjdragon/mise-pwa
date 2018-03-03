@@ -1,12 +1,14 @@
 <template>
   <div>
-    <div>
-      <input type="text" v-model="email">
+    <div class="inputBox">
+      <div>
+        <input type="text" v-model="email" placeholder="이메일">
+      </div>
+      <div>
+        <input type="password" v-model="password" v-on:keyup.enter="login" placeholder="비밀번호">
+      </div>
     </div>
-    <div>
-      <input type="password" v-model="password" v-on:keyup.enter="login">
-    </div>
-    <div>
+    <div class="loginButton">
       <button v-on:click="login">로그인</button>
     </div>
   </div>
@@ -47,5 +49,4 @@
 </script>
 
 <style>
-
 </style>

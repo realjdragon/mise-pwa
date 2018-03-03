@@ -4,6 +4,9 @@
 
 ## Build Setup
 
+앱 링크  
+https://mise-pwa.firebaseapp.com
+
 ``` bash
 # install dependencies
 npm install
